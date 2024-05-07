@@ -16,7 +16,7 @@ public class Dictionary {
 
     public List<String> createWordList() {
         List<String> words = new ArrayList<>();
-        Resource resource = new ClassPathResource("dictionary.txt");
+        Resource resource = new ClassPathResource("dictionaryAsisten.txt");
 
         try (InputStream inputStream = resource.getInputStream();
              Scanner scanner = new Scanner(inputStream)) {

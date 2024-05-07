@@ -1,5 +1,5 @@
 package com.example.tucil3_13522061be.model;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class NodePrioQueue {
     private PriorityQueue<Node> queue;
